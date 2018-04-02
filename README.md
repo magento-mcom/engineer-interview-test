@@ -1,4 +1,4 @@
-# Magento Pair Programming Test
+# Pair Programming Test
 
 The User can generate Reports and send them via Email in different formats like HTML or JSON.
  
@@ -15,7 +15,5 @@ You can freely create files, classes, methods and tests. Also you can break the 
 
 ## How to Install the Test
 
-- Do a `git clone git@github.com:jcuerdo/magento-test.git`
-- `cd magento-test`
 - `composer install`
 - To run the Unit Tests `/vendor/bin/phpunit src`
