@@ -16,4 +16,4 @@ You can freely create files, classes, methods and tests. Also you can break the 
 ## How to Install the Test
 
 - `composer install`
-- To run the Unit Tests `/vendor/bin/phpunit src`
+- To run the Unit Tests `/vendor/bin/phpunit src` or `make test`
