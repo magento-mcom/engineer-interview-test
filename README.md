@@ -1,19 +1,19 @@
-# Pair Programming Test
+# Mom Technical Test
 
-The User can generate Reports and send them via Email in different formats like HTML or JSON.
- 
- 
-There is a bunch of bad practices, anti-patterns and broken SOLID principles in the given code. The objective of this test is to perform a needed refactor in order to have a maintainable, robust and understable application.
+A user can generate reports (Report.php) and send them via email (Mailer.php) in different formats like HTML or JSON.
 
-You can freely create files, classes, methods and tests. Also you can break the given code into the pieces that you consider.
+There is a bunch of bad practices, anti-patterns and broken SOLID principles in the given code. 
+
+The objective of this test is to perform a refactor in order to have a more maintainable, robust and understandable application.
+- You can freely create files, classes and methods and break the code into the pieces you consider
+- The code is written in PHP 5.6, up to you to improve it with PHP 7 new features
+- Add the unit tests you seem fit to test your refactor
+
 
 ## Requeriments
-
 - PHP 5.6 or higher installed.
-- Git installed.
-- Composer installed.
+- Composer installed (see https://getcomposer.org/download/)
 
-## How to Install the Test
-
+## How to run the unit tests
 - `composer install`
-- To run the Unit Tests `/vendor/bin/phpunit src` or `make test`
+- `/vendor/bin/phpunit src` or `make test`
